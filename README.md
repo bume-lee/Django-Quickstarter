@@ -20,7 +20,7 @@ venv생성 및 django설치
 mkdir newproject && cd $_
 python3 -m venv venv
 source venv/bin/activate
-pip3 install django==1.11
+pip install django
 ```
 
 프로젝트 생성
@@ -32,7 +32,7 @@ django-admin startproject --template https://github.com/bume-lee/django-quicksta
 requirements.txt 파일에서 선언된 종속항목 설치
 
 ```bash
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 
